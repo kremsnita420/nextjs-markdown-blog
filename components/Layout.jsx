@@ -12,7 +12,7 @@ export default function Layout({ title, keywords, description, children }) {
 				<meta name='description' conetnt={description} />
 				<meta
 					property='og:image'
-					content='/images/img5.jpg'
+					content='/images/posts/img5.jpg'
 					key='ogimage'
 				/>
 				+{' '}
