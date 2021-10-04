@@ -1,8 +1,9 @@
 ---
 title: 'Project 2'
+date: 31.1.2021
 excerpt: 'Django is a very powerful, high level Python framework for building web applications'
 cover_image: '/images/posts/img2.jpg'
-category: 'Python'
+category: 'Javascript'
 ---
 
 ## Turpius Aegides membris colat volentes fallere

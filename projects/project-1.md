@@ -1,5 +1,6 @@
 ---
 title: 'Project 1'
+date: 31.1.2021
 excerpt: 'Django is a very powerful, high level Python framework for building web applications'
 cover_image: '/images/posts/img1.jpg'
 category: 'Python'
