@@ -1,14 +1,15 @@
 ---
-title: 'Django Crash Course'
-date: 'May 5, 2021'
-excerpt: 'Django is a very powerful, high level Python framework for building web applications'
-cover_image: '/images/posts/img3.jpg'
-category: 'Python'
+title: 'Manage React State With XState'
+date: 'May 15, 2021'
+excerpt: 'The most straightforward way of using XState with React is through local component state'
+cover_image: '/images/posts/img8.jpg'
+category: 'JavaScript'
 author: 'Sam Smith'
-author_image: 'https://randomuser.me/api/portraits/men/12.jpg'
+author_image: '/images/user.png'
 ---
 
-<!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->
+<!-- https://jaspervdj.be/lorem-markdownum/ -->
+<!-- show emmet config -->
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
 haec praepes [partes epulae](http://cui.com/), in egisse de. Caecisque ter

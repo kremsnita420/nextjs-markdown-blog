@@ -1,15 +1,14 @@
 ---
-title: 'Manage React State With XState'
-date: 'May 15, 2021'
-excerpt: 'The most straightforward way of using XState with React is through local component state'
-cover_image: '/images/posts/img8.jpg'
+title: 'React Crash Course'
+date: 'May 8, 2021'
+excerpt: 'Crash course to learn the React JavaScript library. We will look at components, hooks and more'
+cover_image: '/images/posts/img5.jpg'
 category: 'JavaScript'
-author: 'Sam Smith'
-author_image: 'https://randomuser.me/api/portraits/men/18.jpg'
+author: 'Jane Doe'
+author_image: '/images/user.png'
 ---
 
-<!-- https://jaspervdj.be/lorem-markdownum/ -->
-<!-- show emmet config -->
+<!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
 haec praepes [partes epulae](http://cui.com/), in egisse de. Caecisque ter

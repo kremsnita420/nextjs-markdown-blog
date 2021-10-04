@@ -5,7 +5,7 @@ excerpt: 'We will look at 10 simple tips and tricks to increase the speed of you
 cover_image: '/images/posts/img1.jpg'
 category: 'JavaScript'
 author: 'John Doe'
-author_image: 'https://randomuser.me/api/portraits/men/11.jpg'
+author_image: '/images/user.png'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->
@@ -50,9 +50,9 @@ _Memini isto hostilia_ Aeneas, in ponto **nova eventu cetera** iugum animam
 ille, viro, nec. Loquendi aves insisto saecula premente nec, at ego poscit ubi
 sub!
 
-- Tristis natorum ora talia patriis famae naidas
-- Deus scilicet male miliaque noctisque invenio Nilum
-- Efficerentque devexaque foret haec leve ab fertilis
+-   Tristis natorum ora talia patriis famae naidas
+-   Deus scilicet male miliaque noctisque invenio Nilum
+-   Efficerentque devexaque foret haec leve ab fertilis
 
 Institerat quantum facies parientem, crepitantis nondum. Atque atris arcebat
 factis nil Lucina mori sinu est partibus specie, imo interea tellus luctu

@@ -32,7 +32,7 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
 }
 
 export async function getStaticPaths() {
-	const files = fs.readdirSync(path.join('posts'))
+	const files = fs.readdirSync(path.join('markdown-posts'))
 
 	const numPages = Math.ceil(files.length / POSTS_PER_PAGE)
 
@@ -53,11 +53,11 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
 	const page = parseInt((params && params.page_index) || 1)
 
-	const files = fs.readdirSync(path.join('posts'))
+	const files = fs.readdirSync(path.join('markdown-posts'))
 
 	const posts = getPosts()
 
-	/*get categories for sidebar */
+	/*get categories for topbar */
 	const categories = posts.map((post) => post.frontmatter.category)
 
 	/*remove duplicate categories */

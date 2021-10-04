@@ -1,11 +1,11 @@
 ---
-title: 'React Crash Course'
-date: 'May 8, 2021'
-excerpt: 'Crash course to learn the React JavaScript library. We will look at components, hooks and more'
-cover_image: '/images/posts/img5.jpg'
-category: 'JavaScript'
-author: 'Jane Doe'
-author_image: 'https://randomuser.me/api/portraits/women/11.jpg'
+title: 'Test Post 2'
+date: 'October 3, 2021'
+excerpt: 'Django is a very powerful, high level Python framework for building web applications'
+cover_image: '/images/posts/img3.jpg'
+category: 'Python'
+author: 'Sam Smith'
+author_image: '/images/user.png'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

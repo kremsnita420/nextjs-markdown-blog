@@ -1,11 +1,11 @@
 ---
-title: 'Test Post'
-date: 'May 5, 2021'
-excerpt: 'Django is a very powerful, high level Python framework for building web applications'
-cover_image: '/images/posts/img3.jpg'
+title: 'Python Book Review'
+date: 'May 7, 2021'
+excerpt: 'In this review, we will be looking at the new Python book from Oriley'
+cover_image: '/images/posts/img6.jpg'
 category: 'Python'
-author: 'Sam Smith'
-author_image: 'https://randomuser.me/api/portraits/men/12.jpg'
+author: 'Mike Richards'
+author_image: '/images/user.png'
 ---
 
 <!-- Markdow generator - https://jaspervdj.be/lorem-markdownum/ -->

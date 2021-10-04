@@ -7,17 +7,14 @@ export default function Project({ project }) {
 			<Image
 				src={project.frontmatter.cover_image}
 				alt={project.frontmatter.excerpt}
-				width={420}
+				width={600}
 				height={500}
 				className='object-cover mb-4 rounded-md'
 			/>
 
-			<div className='flex justify-between items-center'>
-				<span className='font-light text-gray-600'>
-					{project.frontmatter.date}
-				</span>
-				<div>{project.frontmatter.category}</div>
-			</div>
+			<p className='mt-2 text-gray-600'>
+				Stack: {project.frontmatter.stack}
+			</p>
 
 			<div className='mt-2'>
 				<NextLink href={`/projects/${project.slug}`}>
@@ -28,6 +25,14 @@ export default function Project({ project }) {
 				<p className='mt-2 text-gray-600'>
 					{project.frontmatter.excerpt}
 				</p>
+			</div>
+
+			<div className='flex justify-between items-center mt-6'>
+				<NextLink href={`/projects/${project.slug}`}>
+					<a className='text-gray-900 font-bold hover:text-blue-600'>
+						Read More
+					</a>
+				</NextLink>
 			</div>
 		</div>
 	)

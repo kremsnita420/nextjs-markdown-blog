@@ -31,11 +31,11 @@ export default function CategoryBlogPage({ posts, categoryName, categories }) {
 }
 
 export async function getStaticPaths() {
-	const files = fs.readdirSync(path.join('posts'))
+	const files = fs.readdirSync(path.join('markdown-posts'))
 
 	const categories = files.map((filename) => {
 		const markdownWithMeta = fs.readFileSync(
-			path.join('posts', filename),
+			path.join('markdown-posts', filename),
 			'utf-8'
 		)
 

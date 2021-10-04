@@ -9,9 +9,11 @@ export default function ProjectsPage({ projects }) {
 	console.log(projects)
 	return (
 		<Layout title='My Projects Page' className='height'>
-			<h1 className='text-5xl border-b-4 pb-5 font-bold'>Projects</h1>
+			<h1 className='text-5xl border-b-4 pb-5 font-bold ml-2'>
+				Projects
+			</h1>
 
-			<div className='bg-white shadow-md rounded-lg px-10 py-6 mt-6'>
+			<div className='bg-white shadow-md rounded-lg px-3 py-6 mt-6'>
 				<h3 className='text-2xl mb-5'>My Best Projects</h3>
 
 				<div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
@@ -37,7 +39,7 @@ export default function ProjectsPage({ projects }) {
 
 // fetch projects from .md file
 export async function getStaticProps() {
-	const files = fs.readdirSync(path.join('projects'))
+	const files = fs.readdirSync(path.join('markdown-projects'))
 
 	const projects = files.map((filename) => {
 		//create slug
@@ -45,7 +47,7 @@ export async function getStaticProps() {
 
 		//pars .md content into an object
 		const markownWithMeta = fs.readFileSync(
-			path.join('projects', filename),
+			path.join('markdown-projects', filename),
 			'utf-8'
 		)
 
