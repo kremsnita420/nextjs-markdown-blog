@@ -10,7 +10,7 @@ export default function CategoryList({ categories }) {
 						passHref
 						href={`/blog/category/${category.toLowerCase()}`}
 					>
-						<li className='p-2 cursor-pointer hover:bg-gray-500'>
+						<li className='p-2 cursor-pointer hover:bg-indigo-400'>
 							{category}
 						</li>
 					</Link>

@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { FaSearch } from 'react-icons/fa'
 import SearchResults from './SearchResults'
 
 export default function Search() {
@@ -29,13 +28,11 @@ export default function Search() {
 							type='search'
 							name='search'
 							id='search'
-							className='bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none w-72'
+							className='searchField'
 							value={searchTerm}
 							onChange={(e) => setSearchTerm(e.target.value)}
-							placeholder='Search Posts...'
+							placeholder='Search...'
 						/>
-
-						<FaSearch className='absolute top-0 right-0 text-black mt-3 mr-4' />
 					</form>
 				</div>
 			</div>

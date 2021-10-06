@@ -60,3 +60,79 @@ ol {
 .bg-red-600 {
 	background-color: #a70b34;
 }
+
+/* button */
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: Marvel;
+	font-size: 20px;
+	width: 120px;
+	height: 35px;
+	position: relative;
+	border: solid #bbb 2px;
+	color: #bbb;
+	z-index: 1;
+	transition: all 0.5s ease-in-out;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.buttonSecondary {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+	border: solid #bbb 2px;
+	color: #bbb;
+	z-index: 1;
+	transition: all 0.5s ease-in-out;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px 15px;
+}
+.button:focus {
+	outline: none;
+}
+.btn-2 {
+	background-image: -webkit-linear-gradient(
+		30deg,
+		transparent 50%,
+		#7730db 50%
+	);
+	background-image: linear-gradient(30deg, transparent 50%, #7730db 50%);
+	background-size: 298%;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 0%;
+}
+.btn-2:hover {
+	background-position: 100%;
+	color: #f1f1f1;
+	border-color: #7730db;
+}
+
+/* search field */
+
+.searchField {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-size: 20px;
+	width: 250px;
+	height: 35px;
+	position: relative;
+	border: solid #bbb 2px;
+	color: #bbb;
+	z-index: 1;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px 15px;
+}

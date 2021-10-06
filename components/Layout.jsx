@@ -14,7 +14,7 @@ export default function Layout({ title, keywords, description, children }) {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 				<meta name='keywords' content={keywords} />
-				<meta name='description' conetnt={description} />
+				<meta name='description' content={description} />
 				<meta
 					property='og:image'
 					content='/images/posts/img5.jpg'
@@ -32,8 +32,6 @@ export default function Layout({ title, keywords, description, children }) {
 			<Search />
 
 			<main className='container mx-auto my-7'>{children}</main>
-
-			<Header />
 		</div>
 	)
 }

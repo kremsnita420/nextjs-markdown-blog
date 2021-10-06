@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Project({ project }) {
 	return (
-		<div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
+		<div className='w-full p-5 bg-white rounded-lg shadow-md mt-6'>
 			<Image
 				src={project.frontmatter.cover_image}
 				alt={project.frontmatter.excerpt}
@@ -29,9 +29,7 @@ export default function Project({ project }) {
 
 			<div className='flex justify-between items-center mt-6'>
 				<NextLink href={`/projects/${project.slug}`}>
-					<a className='text-gray-900 font-bold hover:text-blue-600'>
-						Read More
-					</a>
+					<a className='buttonSecondary btn-2'>Read More</a>
 				</NextLink>
 			</div>
 		</div>
