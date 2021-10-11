@@ -71,11 +71,9 @@ ol {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-family: Marvel;
-	font-size: 20px;
-	width: 120px;
+	font-size: 25px;
 	height: 35px;
 	position: relative;
-	border: solid #bbb 2px;
 	color: #bbb;
 	z-index: 1;
 	transition: all 0.5s ease-in-out;
